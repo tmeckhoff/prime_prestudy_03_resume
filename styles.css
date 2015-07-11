@@ -1,0 +1,214 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body { 
+font-family: "Arial Narrow", Sans-serif;
+}
+  
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    color: inherit;
+}
+
+a:hover {
+    font-weight: bold;
+    color: rgba(175,193,193,0.90);
+    -webkit-transition: color 1.5s ease;               
+    -moz-transition: color 1.5s ease;                  
+    -o-transition: color 1.5s ease;                
+    -transition: color 1.5s ease;
+}
+
+header, footer {
+    border-radius: 7px;
+    position: fixed;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    background-color: #535f6b;
+    font-family: "Verdana", Sans-serif;
+    color: #EEEFF0;
+}
+
+header {
+   top: 0;
+   z-index: 999998;
+   margin-bottom: 30px;
+}
+
+.name, .email, .contact {
+   position: relative;
+   
+}
+
+.name {
+    
+    bottom: 38px;
+    margin-left: 20px;
+    padding-bottom: 15px;
+    font-size: 25px; 
+}
+
+.email {
+    bottom: 140px;
+    left: 550px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.contact {
+    bottom: 204px;
+    left: 450px;
+    margin-left: 45%;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+footer {
+    bottom: 0;
+    z-index: 999999;
+    font-size: 25px;
+    margin-top: 30px;
+
+}
+
+.current, .aspiring {
+    font-size: 20px;
+}
+
+.current {
+    float: left;
+    margin-left: 40px;
+    padding-bottom: 15px;
+   
+}
+
+.aspiring {
+    float:right;
+    margin-right: 40px;
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 200px; 
+    width: 650px;
+}
+
+li {
+    font-style: italic;
+    font-size: 15px;
+    font-family: "Verdana", Sans-serif;
+    margin: 0 0 7px 0;
+}
+
+p {
+    font-size: 17px;
+    font-family: "Verdana", Sans-serif;
+    margin-left: 200px; 
+}
+
+h3 {
+    width: 650px;  
+    margin-left: 200px; 
+    letter-spacing: 0.2em;
+    border-bottom: 4px solid #000;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+    font-size: 25px; 
+}   
+
+h4 {
+    font-weight: bold;
+    font-size: 21px;
+    margin-left: 200px; 
+}
+
+h2.ex, h2.ed, h2.present {
+    font-size: 40px; 
+    margin-left: 100px;
+}
+
+h2.ex {
+    text-shadow: 4px 3px 0 #99AAB2, 9px 8px 0 rgba(0,0,0,0.15);
+}
+
+h2.present {
+    text-shadow: 4px 3px 0 #9EA3B8, 9px 8px 0 rgba(0,0,0,0.15);
+}
+
+h2.ed {
+    text-shadow: 4px 3px 0 #94B8B8, 9px 8px 0 rgba(0,0,0,0.15);
+}
+
+
+
+.experience, .presentations, .education {
+    border-radius: 7px;
+    float: left;
+    height: auto;
+    min-width: 100%;
+    position: relative;
+    top: 10px;
+}
+
+.experience {
+    margin-top: 20px;
+    padding: 15px 0 10px 0;
+    background: #B4C6BD;
+    background: linear-gradient(right, #B4C6BD, #99AAB2);
+    background: -webkit-linear-gradient(right, #B4C6BD, #99AAB2);   
+    background: -moz-linear-gradient(right, #B4C6BD, #99AAB2);
+    background: -ms-linear-gradient(right, #B4C6BD, #99AAB2);
+    background: -o-linear-gradient(right, #B4C6BD, #99AAB2);
+}
+
+.presentations {
+    margin-top: 7px;
+    padding-bottom: 10px;
+    background: #C2C7D9;
+    background: linear-gradient(right, #C2C7D9, #9EA3B8);
+    background: -webkit-linear-gradient(right, #C2C7D9, #9EA3B8);   
+    background: -moz-linear-gradient(right, #C2C7D9, #9EA3B8);
+    background: -ms-linear-gradient(right, #C2C7D9, #9EA3B8);
+    background: -o-linear-gradient(right, #C2C7D9, #9EA3B8);
+    }
+
+.education {
+    margin: 7px 0 60px 0;
+    padding-bottom: 10px;
+    background:  #AFC1C1;
+    background: linear-gradient(right, #AFC1C1, #94B8B8);
+    background: -webkit-linear-gradient(right, #AFC1C1, #94B8B8);   
+    background: -moz-linear-gradient(right, #AFC1C1, #94B8B8);
+    background: -ms-linear-gradient(right, #AFC1C1, #94B8B8);
+    background: -o-linear-gradient(right, #AFC1C1, #94B8B8);
+}
+
+
+button {
+    color: #6F8A8A;
+    background: #D5D9DC;
+    background: linear-gradient(bottom, #D5D9DC, #E6E8EA);
+    background: -webkit-linear-gradient(bottom, #D5D9DC, #E6E8EA);   
+    background: -moz-linear-gradient(bottom, #D5D9DC, #E6E8EA);
+    background: -ms-linear-gradient(bottom, #D5D9DC, #E6E8EA);
+    background: -o-linear-gradient(bottom, #D5D9DC, #E6E8EA);
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin: 75px 0 0 575px;
+   }
